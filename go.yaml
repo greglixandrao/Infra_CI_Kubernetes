@@ -16,10 +16,10 @@ spec:
       labels:
         nome: go
     spec:
-    
-      containers: 
+
+      containers:
        - name: go
-         image: leonardosartorello/go_ci:23 
+         image: greglixandrao/go_ci:latest
          ports:
           - containerPort: 8000
          env:
